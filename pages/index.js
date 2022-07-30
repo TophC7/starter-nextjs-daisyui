@@ -33,7 +33,7 @@ export default function Home() {
         </aside>
 
         <div className=" flex flex-wrap items-center justify-center max-w-4xl text-neutral">
-          <div className=" card max-w-sm m-4 bg-base-100 border-2 border-neutral ">
+          <div className=" card max-w-sm m-4 outline">
             <div className=" card-body">
               <h2 className=" card-title text-2xl">Documentation</h2>
               <p className=" text-xl">Find in-depth information about Next.js features and API.</p>
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" card max-w-sm m-4 bg-base-100 border-2 border-neutral ">
+          <div className=" card max-w-sm m-4 outline">
             <div className=" card-body">
               <h2 className=" card-title text-2xl">Learn</h2>
               <p className=" text-xl">Learn about Next.js in an interactive course with quizzes!</p>
@@ -57,7 +57,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" card max-w-sm m-4 bg-base-100 border-2 border-neutral ">
+          <div className=" card max-w-sm m-4 outline">
             <div className=" card-body">
               <h2 className=" card-title text-2xl">Examples</h2>
               <p className=" text-xl">Discover and deploy boilerplate example Next.js projects.</p>
@@ -69,7 +69,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className=" card max-w-sm m-4 bg-base-100 border-2 border-neutral ">
+          <div className=" card max-w-sm m-4 outline">
             <div className=" card-body">
               <h2 className=" card-title text-2xl">Deploy</h2>
               <p className=" text-xl">Instantly deploy your Next.js site to a public URL with Vercel.</p>
