@@ -2,16 +2,7 @@ import Head from 'next/head';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faPlay } from '@fortawesome/free-solid-svg-icons';
 
-import { useEffect } from 'react'
-import { themeChange } from 'theme-change'
-
-
 export default function Home() {
-
-  useEffect(() => {
-    themeChange(false)
-  })
-
   return (
     <div className="px-8 font-fira">
       <Head>
@@ -21,14 +12,28 @@ export default function Home() {
       </Head>
 
       <nav className=" float-right pt-8 dropdown dropdown-end">
-        <label tabIndex="0" className="btn m-1">Theme</label>
+        <label tabIndex="0" className="btn m-1">
+          Theme
+        </label>
         <ul tabIndex="0" className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a data-set-theme="light">Light</a></li>
-          <li><a data-set-theme="dark">Dark</a></li>
-          <li><a data-set-theme="cupcake">Cupcake</a></li>
-          <li><a data-set-theme="retro">Retro</a></li>
-          <li><a data-set-theme="corporate">Corporate</a></li>
-          <li><a data-set-theme="business">Business</a></li>
+          <li>
+            <a data-set-theme="light">Light</a>
+          </li>
+          <li>
+            <a data-set-theme="dark">Dark</a>
+          </li>
+          <li>
+            <a data-set-theme="cupcake">Cupcake</a>
+          </li>
+          <li>
+            <a data-set-theme="retro">Retro</a>
+          </li>
+          <li>
+            <a data-set-theme="corporate">Corporate</a>
+          </li>
+          <li>
+            <a data-set-theme="business">Business</a>
+          </li>
         </ul>
       </nav>
 
