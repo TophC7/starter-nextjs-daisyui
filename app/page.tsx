@@ -14,8 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <nav className="dropdown dropdown-end absolute right-0 top-0 pr-8 pt-8">
-        <label tabIndex={0} className="btn m-1">
+      <nav className="dropdown dropdown-end dropdown-bottom w-full py-4 pr-8">
+        <label tabIndex={0} className="btn float-right">
           Theme
         </label>
         <ul
@@ -43,7 +43,7 @@ export default function Home() {
         </ul>
       </nav>
 
-      <main className="flex min-h-screen flex-col items-center justify-between p-24 pb-8">
+      <main className="flex min-h-screen flex-col items-center justify-between gap-8 pb-8">
         <div className="relative grid grid-cols-1 grid-rows-1 whitespace-nowrap text-center text-6xl lg:grid-cols-2">
           Welcome to
           <NextLogo className="ml-10 mt-4 min-w-[15rem] fill-primary lg:ml-4 lg:mt-0" />
@@ -55,7 +55,7 @@ export default function Home() {
           </a>
         </div>
 
-        <aside className="grid grid-cols-1 items-center gap-8 text-center text-2xl leading-6 lg:mb-0 lg:w-full lg:max-w-5xl  lg:grid-cols-2 lg:text-right">
+        <aside className="grid grid-cols-1 items-center gap-8 text-center text-2xl lg:mb-0 lg:w-full lg:max-w-5xl  lg:grid-cols-2 lg:text-right">
           Get started by editing
           <div className="mockup-code mx-auto w-min bg-primary text-primary-content md:mx-0">
             <pre data-prefix="∟">
@@ -64,7 +64,7 @@ export default function Home() {
           </div>
         </aside>
 
-        <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+        <div className="grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             className="group card transition-colors hover:bg-base-300"
