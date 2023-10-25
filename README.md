@@ -5,18 +5,12 @@ This is a Sample Starter I configured for personal use. If you find it useful fe
 ## Configured in starter:
 - Next.js 13
 - Typescript
-- TailwindCss
-    - w/ PostCss nesting
-- daisyUi
-    w/ themes
+- TailwindCss w/ PostCss nesting
+- daisyUi w/ themes
 - theme-change
 - eslint
-- prettier
-    - w/ prettier-plugin-tailwindcss
-- Fonts
-    - Inter
-    - Alpino
-    - Satoshi
+- prettier w/ prettier-plugin-tailwindcss
+- Fonts: Inter, Alpino, Satoshi
 - .vscode configs (delete if unwanted)
 
 # Preview [Here](https://daisy.toph.cc)
