@@ -1,6 +1,23 @@
-# Sample Nextjs app with daisyUI and Font Awesome
+# Next.js starter with TypeScript and daisyUI
 
-This is a sample app I made for personal use to quickly setup a webapp. Feel free to use it if you find it usefull!
+This is a Sample Starter I configured for personal use. If you find it useful fell free to use it.
 
-# Preview [Here](https://sample-nextjs-daisyui.vercel.app)
-![screenshot of webpage](https://imgur.com/P4djvMO.png)
+## Configured in starter:
+- Next.js 13
+- Typescript
+- TailwindCss
+    - w/ PostCss nesting
+- daisyUi
+    w/ themes
+- theme-change
+- eslint
+- prettier
+    - w/ prettier-plugin-tailwindcss
+- Fonts
+    - Inter
+    - Alpino
+    - Satoshi
+- .vscode configs (delete if unwanted)
+
+# Preview [Here](https://daisy.toph.cc)
+![screenshot of webpage](./public/screenshot.png)
