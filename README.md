@@ -14,5 +14,5 @@ This is a Sample Starter I configured for personal use. If you find it useful fe
 - Fonts: Inter, Alpino, Satoshi
 - .vscode configs (delete if unwanted)
 
-# Preview [Here](https://daisy.toph.cc)
+# Preview [Here](https://next.toph.cc)
 ![screenshot of webpage](./public/screenshot.png)
